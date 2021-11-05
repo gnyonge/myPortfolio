@@ -1,0 +1,43 @@
+.navbar-wrapper {
+    width: 80vw;
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-wrapper .name {
+    font-weight: 600;
+}
+
+.navbar-wrapper .links-wrapper button {
+    text-decoration: none;
+    padding: 10px;
+    font-family: "Open Sans";
+    opacity: 0.6;
+    transition: all 0.2s ease-in-out;
+    font-size: 12px;
+    background-color: transparent;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+}
+
+.navbar-wrapper .links-wrapper button:hover {
+    opacity: 1;
+}
+
+.navbar-wrapper .links-wrapper .active {
+    color: black;
+}
+
+
+/* @media screen and (min-width:1024px) {
+	Desktop
+}
+@media screen and (min-width:768px) and (max-width: 1023px) {
+	Tablet
+}
+@media screen and (max-width:767px){ 
+	Mobile
+} */
