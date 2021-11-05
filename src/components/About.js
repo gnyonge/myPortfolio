@@ -1,9 +1,10 @@
 import React from 'react'
+import AboutImage from '../images/IMG_0280.jpg'
 
 const About = () => {
   return (
     <div style={{height: '100vh'}} id="about">
-      소개페이지
+      <img src={AboutImage} alt="" />
     </div>
   )
 }
