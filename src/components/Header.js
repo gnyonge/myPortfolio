@@ -1,10 +1,11 @@
 import React from 'react'
 import Fade from "react-reveal/Fade"
+import '../styles/header.css'
 
 const Header = () => {
   return (
-    <div className="section" id="home">
-      <div className="container">
+    <div className="section" id="header">
+      <div className="header-container">
         <div className="header-wrapper">
           <Fade bottom>
             <h2>
@@ -33,9 +34,7 @@ const Header = () => {
           <Fade bottom>
             <button
               className="primary-btn"
-              style={{ marginTop: '50px', width: '100px'}}
-            >
-              More ↓
+            ><a href="#about">More ↓</a>
             </button>
           </Fade>
         </div>

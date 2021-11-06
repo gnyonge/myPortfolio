@@ -1,24 +1,31 @@
-import React from 'react'
+import React, { useState } from 'react'
+import '../styles/navbar.css'
 
 const Navbar = () => {
+
+  const [header, setHeader] = useState(false);
+  const changeHeader = () => { 
+    if (window.scrollY >= 100) {
+      setHeader(true)
+    } else {
+      setHeader(false)
+    }
+  }
+
+  window.addEventListener('scroll', changeHeader)
+  
   return (
-    <div className="section">
-      <div className="container">
-        <div className="navbar-wrapper">
-          네브바
-          <div
-            role="button"
-            className="name"
-            tabIndex={0}
-          >
-            Portfolio.
-          </div>
-          <div className="links-wrapper">
-            <button><a href="#header">Top</a></button>
-            <button><a href="#about">About</a></button>
-            <button><a href="#work">Work</a></button>
-          </div>
-        </div>
+    <div className={header ? 'navbar-wrapper fixed-navbar ' : 'navbar-wrapper'}>
+      <div
+        role="button"
+        className="name"
+      >
+        Portfolio.
+      </div>
+      <div className="links-wrapper">
+        <a href="#header">Top</a>
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
       </div>
     </div>
   )

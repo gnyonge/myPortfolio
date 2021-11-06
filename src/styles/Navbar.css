@@ -1,29 +1,41 @@
+.fixed-navbar {
+    background: white;
+    box-shadow: 0 0 3px rgba(black, .3);
+    z-index: 999;
+}
+
 .navbar-wrapper {
-    width: 80vw;
-    margin-top: 5vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    min-height: 60px;
+    padding: 0 50px;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: .3s ease;
+    position: fixed;
 }
 
 .navbar-wrapper .name {
     font-weight: 600;
+    font-size: large;
 }
 
-.navbar-wrapper .links-wrapper button {
+.navbar-wrapper .links-wrapper a {
     text-decoration: none;
+    color: black;
     padding: 10px;
     font-family: "Open Sans";
     opacity: 0.6;
     transition: all 0.2s ease-in-out;
-    font-size: 12px;
+    font-size: 14px;
     background-color: transparent;
     outline: none;
     border: 0px;
-    cursor: pointer;
 }
 
-.navbar-wrapper .links-wrapper button:hover {
+.navbar-wrapper .links-wrapper a:hover {
     opacity: 1;
 }
 

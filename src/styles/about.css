@@ -1,0 +1,235 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    height: max-content;
+    padding-top: 60px;
+}
+
+.about-section {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+}
+
+.about-section .content {
+    width: 50%;
+}
+
+.about-section .content h1 {
+    font-size: 3rem;
+    line-height: 20px;
+}
+
+.about-section .content p {
+    font-size: large;
+}
+
+.about-section .content .about-details {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-section .content .about-details .detail-short {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    margin-top: 20px;
+}
+
+.about-section .content .about-details .detail {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    margin-top: 20px;
+}
+
+.about-section .content .about-details .detail-short p {
+    padding-bottom: 5px;
+    margin-top: 6px;
+    margin-left: 8px;
+    width: max-content;
+}
+
+.about-section .content .about-details .detail p {
+    padding-bottom: 10px;
+    margin-top: 6px;
+    margin-left: 8px;
+    width: max-content;
+}
+
+.about-section .content .about-details-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-section .content .about-details-block .detail {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.about-section .content .about-details-block .detail p {
+    margin-bottom: 10px;
+    margin-top: 6px;
+    margin-left: 5px;
+    width: max-content;
+}
+
+.about-section .image-wrapper {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.about-section .image-wrapper img {
+    width: 100%;
+}
+
+
+/* .about-section {
+    width: 80vw;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    @include media(">=phone", "<lgphone") {
+        flex-direction: column-reverse;
+    }
+    @include media(">=lgphone", "<tablet") {
+        flex-direction: column-reverse;
+    }
+    @include media(">=tablet", "<desktop") {
+        flex-direction: column-reverse;
+    }
+    .content {
+        width: 48%;
+        @include media(">=phone", "<lgphone") {
+            width: 100%;
+        }
+        @include media(">=lgphone", "<tablet") {
+            width: 100%;
+        }
+        @include media(">=tablet", "<desktop") {
+            width: 100%;
+        }
+        h1 {
+            font-size: 3rem;
+            line-height: 20px;
+            @include media(">=phone", "<lgphone") {
+                text-align: center;
+            }
+            @include media(">=lgphone", "<tablet") {
+                text-align: center;
+            }
+            @include media(">=tablet", "<desktop") {
+                text-align: center;
+            }
+        }
+        p {
+            font-size: large;
+            @include media(">=phone", "<lgphone") {
+                text-align: center;
+            }
+            @include media(">=lgphone", "<tablet") {
+                text-align: center;
+            }
+            @include media(">=tablet", "<desktop") {
+                text-align: center;
+            }
+        }
+        .about-details {
+            display: flex;
+            flex-wrap: wrap;
+            @include media(">=phone", "<lgphone") {
+                width: 100%;
+                flex-direction: column;
+                align-items: center;
+            }
+            @include media(">=lgphone", "<tablet") {
+                width: 100%;
+                flex-direction: column;
+                align-items: center;
+            }
+            @include media(">=tablet", "<desktop") {
+                width: 100%;
+                flex-direction: column;
+                align-items: center;
+            }
+            .detail {
+                display: flex;
+                width: 45%;
+                margin-top: 20px;
+                @include media(">=phone", "<lgphone") {
+                    width: 100%;
+                }
+                @include media(">=lgphone", "<tablet") {
+                    width: 80%;
+                }
+                @include media(">=tablet", "<desktop") {
+                    width: 70%;
+                }
+                p {
+                    margin-bottom: 10px;
+                    margin-top: 6px;
+                    margin-left: 8px;
+                }
+            }
+        }
+        .about-details-block {
+            display: flex;
+            flex-wrap: wrap;
+            @include media(">=phone", "<lgphone") {
+                flex-direction: column;
+                align-items: center;
+            }
+            @include media(">=lgphone", "<tablet") {
+                flex-direction: column;
+                align-items: center;
+            }
+            @include media(">=tablet", "<desktop") {
+                flex-direction: column;
+                align-items: center;
+            }
+            .detail {
+                display: flex;
+                width: 100%;
+                margin-top: 20px;
+                @include media(">=phone", "<lgphone") {
+                    width: 100%;
+                }
+                @include media(">=lgphone", "<tablet") {
+                    width: 80%;
+                }
+                @include media(">=tablet", "<desktop") {
+                    width: 70%;
+                }
+                p {
+                    margin-bottom: 10px;
+                    margin-top: 6px;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+    .image-wrapper {
+        width: 45%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        @include media(">=phone", "<lgphone") {
+            width: 100%;
+        }
+        @include media(">=lgphone", "<tablet") {
+            width: 100%;
+        }
+        @include media(">=tablet", "<desktop") {
+            width: 100%;
+        }
+        img {
+            width: 100%;
+        }
+    }
+} */
