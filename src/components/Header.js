@@ -34,7 +34,7 @@ const Header = () => {
           <Fade bottom>
             <button
               className="primary-btn"
-            ><a href="#about">More ↓</a>
+            ><a href="#about" style={{fontSize: '18px'}}>More ↓</a>
             </button>
           </Fade>
         </div>

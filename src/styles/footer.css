@@ -1,0 +1,30 @@
+.footer-container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-wrapper {
+    width: 80vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-container h2 {
+    font-size: 1.5rem;
+    overflow: hidden;
+}
+
+@media screen and (min-width:768px) and (max-width: 1023px) {
+    .footer-container h2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .footer-container h2 {
+        font-size: 14px;
+    }
+}

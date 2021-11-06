@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     height: max-content;
-    padding-top: 60px;
+    padding: 60px 0px;
 }
 
 .about-section {
@@ -32,14 +32,14 @@
 .about-section .content .about-details .detail-short {
     display: flex;
     align-items: center;
-    width: 40%;
+    width: 45%;
     margin-top: 20px;
 }
 
 .about-section .content .about-details .detail {
     display: flex;
     align-items: center;
-    width: 40%;
+    width: 45%;
     margin-top: 20px;
 }
 
@@ -85,6 +85,78 @@
 
 .about-section .image-wrapper img {
     width: 100%;
+}
+
+@media screen and (min-width:768px) and (max-width: 1023px) {
+    .about-section {
+        flex-direction: column-reverse;
+    }
+    .about-section .content {
+        width: 100%;
+    }
+    .about-section .content h1 {
+        text-align: center;
+    }
+    .about-section .content p {
+        text-align: center;
+    }
+    .about-section .content .about-details {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-section .content .about-details .detail {
+        width: 70%;
+    }
+    .about-section .content .about-details .detail-short {
+        width: 70%;
+    }
+    .about-section .content .about-details-block {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-section .content .about-details-block .detail {
+        width: 70%;
+    }
+    .about-section .image-wrapper {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .about-section {
+        flex-direction: column-reverse;
+    }
+    .about-section .content {
+        width: 100%;
+    }
+    .about-section .content h1 {
+        text-align: center;
+    }
+    .about-section .content p {
+        text-align: center;
+    }
+    .about-section .content .about-details {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-section .content .about-details .detail {
+        width: 100%;
+    }
+    .about-section .content .about-details .detail-short {
+        width: 100%;
+    }
+    .about-section .content .about-details-block {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-section .content .about-details-block .detail {
+        width: 100%;
+    }
+    .about-section .image-wrapper {
+        width: 100%;
+    }
 }
 
 
