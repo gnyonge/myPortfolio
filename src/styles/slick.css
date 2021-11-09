@@ -29,7 +29,7 @@
     -ms-touch-action: pan-y;
     touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
-    width: 70vw;
+    width: 60vw;
 }
 
 .poke-carousel .slick-slider {
@@ -45,7 +45,7 @@
     -ms-touch-action: pan-y;
     touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
-    width: 70vw;
+    width: 60vw;
 }
 
 .slick-list {
@@ -137,4 +137,18 @@
 
 .slick-arrow.slick-hidden {
     display: none;
+}
+
+@media screen and (min-width:768px) and (max-width: 1023px) {
+    .walk-carousel .slick-slider,
+    .poke-carousel .slick-slider {
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .walk-carousel .slick-slider,
+    .poke-carousel .slick-slider {
+        width: 75vw;
+    }
 }

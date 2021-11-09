@@ -67,6 +67,10 @@ a {
         font-size: 14px;
         width: 100%;
     }
+    .header-container {
+        height: max-content;
+        padding-bottom: 100px;
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -80,5 +84,9 @@ a {
     p {
         font-size: 12px;
         width: 100%;
+    }
+    .header-container {
+        height: max-content;
+        padding-bottom: 100px;
     }
 }
