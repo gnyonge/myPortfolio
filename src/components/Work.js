@@ -114,7 +114,7 @@ const Work = () => {
                   <FcCheckmark size="30"/><p>GitHub</p> 
                 </div>
                 <div className="desc-content">
-                <a href="https://github.com/gnyonge/Hunsu-project">바로가기</a>
+                <a href="https://github.com/gnyonge/Hunsu">바로가기</a>
                 </div>
               </div>
               
@@ -205,7 +205,7 @@ const Work = () => {
           </div>
           </div>
           <div className="work-box">
-            <h2>포켓몬</h2>
+            <h2>포켓몬 사전</h2>
             <h3>2021.10.21 ~ 2021.10.30 (1人 개인 프로젝트)</h3>
           <div className="poke-box">
             <div className="poke-carousel">
@@ -257,7 +257,7 @@ const Work = () => {
                   <FcCheckmark size="30"/><p>Deployment</p> 
                 </div>
                 <div className="desc-content">
-                GitHub
+                GitHub pages <a href="https://gnyonge.github.io/Pokemon-project/">바로가기</a>
                 </div>
               </div>
               <div className="desc-box">

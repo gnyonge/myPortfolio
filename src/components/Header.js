@@ -22,7 +22,7 @@ const Header = () => {
               </h1>
               <h1>
                 {" "}
-                Portfolio
+                최진영's Portfolio
               </h1>
             </div>
           </Fade>
