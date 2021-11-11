@@ -1,6 +1,6 @@
 import React from 'react'
 import Fade from "react-reveal/Fade"
-import AboutImage from '../images/IMG_0280.jpg'
+import AboutImage from '../images/me.png'
 import SkillsImage from "../images/skills.png"
 import { FcBusinesswoman, FcCalendar, FcPhone, FcFeedback, FcGraduationCap, 
   FcReading, FcIdea } from "react-icons/fc"
